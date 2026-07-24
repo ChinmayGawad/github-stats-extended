@@ -6,6 +6,12 @@
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["build/**"]
+    },
+    "lint": {
+      "dependsOn": ["^build"]
+    },
+    "typecheck": {
+      "dependsOn": ["^build"]
     }
   }
 }
